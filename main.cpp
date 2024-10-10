@@ -10,7 +10,7 @@ int main()
     nrisparmi = 0;
     while (risparmi < costomoto) 
     {
-        cout << "mancano " << costomoto - risparmi << " euro" << endl;
+        cout << "mancano " << costomoto - risparmi << "€." << endl;
         cout << "inserisci i nuovi risparmi" << endl;
         cin >> nuovirisparmi;
         risparmi = risparmi + nuovirisparmi;
